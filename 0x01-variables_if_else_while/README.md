@@ -5,3 +5,4 @@
 4-print_alphabt is a C program that prints letters of the alphabet except some letters
 5-print_numbers is a C program that prints numbers from 0 to 9
 6-print_numberz is a C program that prints numbers with putchar
+7-print_tebahpla is a C program to write alphabet in reverse order
