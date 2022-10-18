@@ -3,3 +3,4 @@
 2-printf_alphabet.c is a C program that prints the letters of the alphbet in lower case
 3-print_alphabets.c is a C program that prints letters of the alphabet in lower and upper case
 4-print_alphabt is a C program that prints letters of the alphabet except some letters
+5-print_numbers is a C program that prints numbers from 0 to 9
