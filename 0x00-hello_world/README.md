@@ -3,3 +3,4 @@
 2-assembler generates assembly code out of c file
 3-name is a script that compiles a C file
 4-puts.c is a c file that prints a phrase
+5-printf uses the printf function to print a line

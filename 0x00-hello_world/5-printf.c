@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/** main - Entry point
+/** 
+ * main - Entry point
  *
- * Description: prints line with printf function
+ * prints line with printf function
  *
  * Return: Always 0 (success)
  */
