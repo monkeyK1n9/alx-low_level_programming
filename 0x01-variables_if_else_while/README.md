@@ -6,3 +6,4 @@
 5-print_numbers is a C program that prints numbers from 0 to 9
 6-print_numberz is a C program that prints numbers with putchar
 7-print_tebahpla is a C program to write alphabet in reverse order
+8-print_base16 prints all numbers in base 16
