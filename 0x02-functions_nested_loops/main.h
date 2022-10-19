@@ -9,6 +9,6 @@
 */
 int _putchar(char c)
 {
-	printf("%c", c);
+	putchar(c);
 	return (0);
 }
