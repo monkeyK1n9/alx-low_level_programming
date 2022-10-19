@@ -9,10 +9,6 @@
  */
 int main(void)
 {
-	char i;
-
- 	for (i = 'a'; i <= 'z'; ++i)
- 		printChar(i);
- 	printChar('\n');
+ 	print_alphabet();
  	return (0);
 }
