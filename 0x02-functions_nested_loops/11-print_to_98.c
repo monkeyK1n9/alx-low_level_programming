@@ -28,11 +28,7 @@ void print_to_98(int n)
 		}
 		else
 		{
-			for (i = n; i >= 0; --i)
-			{
-				printf("%i, ", i);
-			}
-			for (i = 1; i <= 98; ++i)
+			for (i = n; i >= 98; --i)
 			{
 				if (i < 98)
 					printf("%i, ", i);
