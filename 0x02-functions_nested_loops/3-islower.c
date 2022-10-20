@@ -11,7 +11,7 @@
 int _islower(int c)
 {
 	char j;
-	char k;
+	int k;
 
 	for (j = 'a'; j <= 'z'; ++j)
 	{
