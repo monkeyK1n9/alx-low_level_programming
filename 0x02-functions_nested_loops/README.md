@@ -3,3 +3,4 @@
 2-print_alphabet_x10 prints the alphabet 10times
 3-islower.c checks if character is lower case
 4-isalpha checks alphabetic characters
+5-sign prints sign of a number
