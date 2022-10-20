@@ -1,9 +1,19 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include "1-alphabet.h"
+#include <unistd.h>
 
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 
+void print_alphabet(void)
+{
+	char i;
 
-void print_alphabet(void);
+	for (i = 'a'; i <= 'z'; ++i)
+		_putchar(i);
+	_putchar('\n');
+}
 
 #endif
