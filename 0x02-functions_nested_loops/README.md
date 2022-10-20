@@ -4,3 +4,4 @@
 3-islower.c checks if character is lower case
 4-isalpha checks alphabetic characters
 5-sign prints sign of a number
+6-abs gives the abs value of a number
