@@ -3,19 +3,22 @@
 /**
  * _islower - is a function that check lowercase characters
  *
+ * @c: letter to check
+ *
  * Return: 1 if c is lowercase, 0 otherwise
  */
 
 int _islower(int c)
 {
 	char j;
+	char k;
 
 	for (j = 'a'; j <= 'z'; ++j)
 	{
-		if ( j == c)
-			return (1);
+		if (j == c)
+			k = 1;
 		else
-			return (0);
+			k = 0;
 	}
-	return (0);
+	return (k);
 }
