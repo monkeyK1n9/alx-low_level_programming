@@ -1,7 +1,20 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
+#include <unistd.h>
 
-int printChar(char c)
+int _putchar(char c)
 {
-	putchar(c);
-	return (0);
+	return (write(1, &c, 1));
 }
+
+void print_alphabet(void)
+{
+	char i;
+
+	for (i = 'a'; i <= 'z'; ++i)
+		_putchar(i);
+	_putchar('\n');
+	return;
+}
+
+#endif
