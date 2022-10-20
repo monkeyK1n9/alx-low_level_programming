@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - prints 10times the alphaber
  *
- * Return: Always 0
+ * Return: a - z 10times
 */
 
 void print_alphabet_x10(void)
