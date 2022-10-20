@@ -5,3 +5,4 @@
 4-isalpha checks alphabetic characters
 5-sign prints sign of a number
 6-abs gives the abs value of a number
+7-print_last_digit prints the last digit of a number
