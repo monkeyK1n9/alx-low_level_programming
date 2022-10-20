@@ -7,3 +7,5 @@
 6-abs gives the abs value of a number
 7-print_last_digit prints the last digit of a number
 8-24_hours prints time
+9-print times talbe prints the time table from 0 to 9
+10-add.c adds two integers
