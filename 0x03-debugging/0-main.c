@@ -14,10 +14,7 @@ int main(void)
 	char t;
 
 	i = 0;
-	t = positive_or_negative(i);
+	positive_or_negative(i);
 
-	if (t == "0 is zero")
-		return (0);
-	else
-		return (1);
+	return (0);
 }
