@@ -3,6 +3,7 @@
 /**
  * print_line - prints a line
  *
+ * @n: number of _
  * Return: a line of n _ characters
  */
 
