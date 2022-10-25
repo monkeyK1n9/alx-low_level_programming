@@ -10,10 +10,12 @@
 
 void print_array(int *a, int n)
 {
-	int i;
+	int i, j;
 
-	if (n >= sizeof(a))
-		n = sizeof(a);
+	j = (int) sizeof(a);
+
+	if (n >= j)
+		n = j;
 	else if (n < 0)
 		n = 0;
 
