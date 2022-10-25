@@ -4,3 +4,4 @@
 3-puts prints a string
 4-print-rev prints a string in reverse
 5-rev_string reverses a string
+6-puts2 prints every other character
