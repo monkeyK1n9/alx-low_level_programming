@@ -14,8 +14,8 @@ void print_array(int *a, int n)
 
 	j = (int) sizeof(a);
 
-	if (n >= j)
-		n = j;
+	if (n >= j / 4)
+		n = j / 4;
 	else if (n < 0)
 		n = 0;
 
