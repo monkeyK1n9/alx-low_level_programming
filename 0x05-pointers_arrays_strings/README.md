@@ -7,3 +7,4 @@
 6-puts2 prints every other character
 7-puts_half prints half of a string
 8-print_array prints a given number of elements of an array
+9-strcpy copies values of one string into another
