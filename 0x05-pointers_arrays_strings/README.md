@@ -6,3 +6,4 @@
 5-rev_string reverses a string
 6-puts2 prints every other character
 7-puts_half prints half of a string
+8-print_array prints a given number of elements of an array
