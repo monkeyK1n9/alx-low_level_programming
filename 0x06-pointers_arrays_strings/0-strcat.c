@@ -23,9 +23,9 @@ char *_strcat(char *dest, char *src)
 		++j;
 	}
 
-	for (k = i + 1; k <= i + j + 1; ++k)
+	for (k = i; k <= i + j; ++k)
 	{
-		*(dest + k) = *(src + k - i - 1);
+		*(dest + k) = *(src + k - i);
 	}
 	return (dest);
 }
