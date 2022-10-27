@@ -8,10 +8,10 @@
 
 char *cap_string(char *s)
 {
-	lower[27] = "abcdefghijklmnopqrstuvwxyz";
-	upper[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
+	char lower[27] = "abcdefghijklmnopqrstuvwxyz";
+	char upper[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i, j;
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 27; j++)
