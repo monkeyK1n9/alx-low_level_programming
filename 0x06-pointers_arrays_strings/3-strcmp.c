@@ -9,22 +9,9 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, j, k, l, m;
+	int i, m;
 
-	i = 0;
-	j = 0;
-	k = 0;
-	l = 0;
-
-	while (s1[i++])
-		j++;
-	while (s2[k++])
-		l++;
-
-	if (l < j)
-		j = l;
-
-	for (i = 0; i <= j; i++)
+	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
 	{
 		if (s1[i] != s2[i])
 		{
