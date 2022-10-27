@@ -10,7 +10,9 @@ char *cap_string(char *s)
 {
 	char lower[27] = "abcdefghijklmnopqrstuvwxyz";
 	char upper[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i, j;
+	char separator[12] = {',', ';', '.', '?', '"',
+		'(', ')', '{', '}', ' ', '\n', '\t'};
+	int i, j, k;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -22,13 +24,16 @@ char *cap_string(char *s)
 			}
 		}
 
-		if (s[i] == ' ' || s[i] == '	')
+		for (k = 0; k < 12; k++)
 		{
-			for (j = 0; j < 27; j++)
+			if (s[i] == separator[k])
 			{
-				if (lower[j] == s[i + 1])
+				for (j = 0; j < 27; j++)
 				{
-					*(s + i + 1) = upper[j];
+					if (lower[j] == s[i + 1])
+					{
+						*(s + i + 1) = upper[j];
+					}
 				}
 			}
 		}
