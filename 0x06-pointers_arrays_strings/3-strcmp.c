@@ -9,7 +9,12 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0; j = 0, k = 0, l = 0, m = 0;
+	int i, j, k, l, m;
+
+	i = 0;
+	j = 0;
+	k = 0;
+	l = 0;
 
 	while (s1[i++])
 		j++;
@@ -37,6 +42,5 @@ int _strcmp(char *s1, char *s2)
 			break;
 		}
 	}
-	
 	return (m);
 }
