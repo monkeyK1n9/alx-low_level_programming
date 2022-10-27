@@ -22,9 +22,9 @@ char *cap_string(char *s)
 			}
 		}
 
-		for (j = 0; j < 27; j++)
+		if (s[i] == ' ' || s[i] == '	')
 		{
-			if (s[i] == ' ' || s[i] == '	')
+			for (j = 0; j < 27; j++)
 			{
 				if (lower[j] == s[i + 1])
 				{
