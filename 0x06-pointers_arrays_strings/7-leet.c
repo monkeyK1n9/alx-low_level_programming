@@ -10,7 +10,7 @@ char *leet(char *s)
 {
 	char lower[6] = "aeotl";
 	char upper[6] = "AEOTL";
-	int num[5] = {4, 3, 0, 7, 1};
+	char num[5] = {'4', '3', '0', '7', '1'};
 	int i, j;
 
 	for (i = 0; s[i] != '\0'; i++)
