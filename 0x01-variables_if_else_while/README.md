@@ -8,3 +8,4 @@
 7-print_tebahpla is a C program to write alphabet in reverse order
 8-print_base16 prints all numbers in base 16
 9-print_comb.c is a C file that prints combination of single digits
+101-print_comb4 prints combination of 3 digits
