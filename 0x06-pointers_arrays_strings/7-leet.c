@@ -8,8 +8,8 @@
 
 char *leet(char *s)
 {
-	char lower[5] = "aeotl";
-	char upper[5] = "AEOTL";
+	char lower[6] = "aeotl";
+	char upper[6] = "AEOTL";
 	int num[5] = {4, 3, 0, 7, 1};
 	int i, j;
 
