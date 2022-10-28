@@ -9,3 +9,4 @@
 8-print_base16 prints all numbers in base 16
 9-print_comb.c is a C file that prints combination of single digits
 101-print_comb4 prints combination of 3 digits
+102-print_comb5 prints all combinations of 2digits
