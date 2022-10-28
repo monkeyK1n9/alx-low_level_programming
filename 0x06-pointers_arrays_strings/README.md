@@ -6,3 +6,4 @@
 5-string_toupper.c converts a string to uppercase
 
 6-cap_string capitalizes a string
+7-leet.c encodes a string
