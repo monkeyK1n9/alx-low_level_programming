@@ -4,3 +4,4 @@
 3-strspn.c gets the length of a prefix substring
 4-strpbrk search atring for any of a set of bytes
 5-strstr.c find first occurrence of substring
+7-print_chessboard prints the chess_board
