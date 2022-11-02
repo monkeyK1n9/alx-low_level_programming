@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_diagsums - prints the sums of the diagonals of
@@ -10,7 +11,10 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, j, sumDiag1 = 0, sumDiag2 = 0;
+	int i, j, sumDiag1, sumDiag2;
+
+	sumDiag1 = 0;
+	sumDiag2 = 0;
 
 	for (i = 0; i < size; i++)
 	{
