@@ -5,3 +5,4 @@
 4-strpbrk search atring for any of a set of bytes
 5-strstr.c find first occurrence of substring
 7-print_chessboard prints the chess_board
+8-print_diagsums.c prints the sum of the diagonals of an arrayof arrays
