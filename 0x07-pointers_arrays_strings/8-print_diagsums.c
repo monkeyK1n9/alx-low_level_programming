@@ -4,7 +4,7 @@
  * print_diagsums - prints the sums of the diagonals of
  * array of arrays
  * @a: array of arrays
- * @s: size of the array of arrays
+ * @size: size of the array of arrays
  * Return: nothing
  */
 
