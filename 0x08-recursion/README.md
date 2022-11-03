@@ -2,3 +2,4 @@
 1-print_rev_recursion prints a string in reverse using recursion
 2-strlen_recursion prints the length of string
 3-factorial.c prints the factorial of a number
+4-pow_recursion raises the power of a number
