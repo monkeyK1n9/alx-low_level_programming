@@ -16,7 +16,7 @@ int check_prime(int num, int value)
 
 	if (value > num)
 		return (0);
-	if (q * value == num)
+	if (q * value == num && value != num)
 		return (0);
 	if (value == num)
 		return (1);
