@@ -4,3 +4,4 @@
 3-factorial.c prints the factorial of a number
 4-pow_recursion raises the power of a number
 5-sqrt_recursion.c gives the natural sqrt of a number
+6-is_prime_number.c finds if a number is prime
