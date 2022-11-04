@@ -3,3 +3,4 @@
 2-strlen_recursion prints the length of string
 3-factorial.c prints the factorial of a number
 4-pow_recursion raises the power of a number
+5-sqrt_recursion.c gives the natural sqrt of a number
