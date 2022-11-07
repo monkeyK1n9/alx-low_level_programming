@@ -6,4 +6,6 @@
  * Return: nothing
  */
 
-void _puts(char *s);
+void _puts(char *s)
+{
+}

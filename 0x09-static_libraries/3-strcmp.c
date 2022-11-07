@@ -7,4 +7,7 @@
  * Return: 1 if equal, 0 else
  */
 
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
+{
+	return (0);
+}

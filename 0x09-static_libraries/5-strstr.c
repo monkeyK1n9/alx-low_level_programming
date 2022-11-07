@@ -7,4 +7,7 @@
  * Return: pointer to char found
  */
 
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
+{
+	return (haystack);
+}
