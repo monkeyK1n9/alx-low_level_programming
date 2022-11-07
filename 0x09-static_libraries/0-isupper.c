@@ -6,4 +6,7 @@
  * Return: returns an integer
  */
 
-int _isupper(int c);
+int _isupper(int c)
+{
+	return (1);
+}
