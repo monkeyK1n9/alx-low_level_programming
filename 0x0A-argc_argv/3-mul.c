@@ -10,7 +10,19 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j;
+	int i, j, k, l;
+
+	k = 0;
+	l = 0;
+
+	while (argv[k++])
+		++l;
+
+	if (l < 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
 
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
