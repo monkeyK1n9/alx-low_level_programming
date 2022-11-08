@@ -10,15 +10,9 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j, k, l;
+	int i, j;
 
-	k = 0;
-	l = 0;
-
-	while (argv[k++])
-		++l;
-
-	if (l < 3)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
