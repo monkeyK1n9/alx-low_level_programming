@@ -24,6 +24,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	i = 0;
 	j = 0;
 
+	if (name == NULL || age <=0 || owner == NULL)
+	{
+		free(d);
+		return (NULL);
+	}
+
 	while (name[i] != '\0')
 		++i;
 	while (owner[j] != '\0')
@@ -35,16 +41,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (copyName == NULL || copyOwner == NULL)
 		return (NULL);
 
-	for (i = 0; name[i] != '\0'; ++i)
-		copyName[i] = name[i];
-
-	for (j = 0; owner[j] != '\0'; ++j)
-		copyOwner[j] = owner[j];
-
 	d->name = copyName;
 	d->age = age;
 	d->owner = copyOwner;
 
 	return (d);
-	
 }
