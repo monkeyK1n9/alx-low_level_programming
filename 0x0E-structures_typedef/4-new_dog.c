@@ -7,14 +7,19 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- * Return: nothing
+ * Return: a dog_t of a new dog
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int i, j;
 	char *copyName, *copyOwner;
-	dog_t d;
+	dog_t *d;
+
+	d = malloc(sizeof(dog_t));
+
+	if (d == NULL)
+		return (NULL);
 
 	i = 0;
 	j = 0;
