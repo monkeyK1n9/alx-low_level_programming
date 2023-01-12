@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_name - prints the name of a dog
@@ -10,5 +11,10 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	return f(name);
+	if (name == NULL || f == NULL)
+	{
+		return;
+	}
+
+	return (f(name));
 }
