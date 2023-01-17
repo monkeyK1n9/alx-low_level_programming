@@ -15,12 +15,15 @@
 int main(int argc, char *argv[])
 {
 	int operation;
+	char *s;
 
 	if (argc != 4)
 		exit(98);
-	if (argv[2] != "+" || argv[2] != "-" || argv[2] != "*" || argv[2] != "/" || argv[2] != "%")
+
+	s = argv[2];
+	if (s != "+" || s != "-" || s != "*" || s != "/" || s != "%")
 		exit(99);
-	if ((argv[2] == "/" || argv[2] == "%") && argv[3] == "0")
+	if ((s == "/" || s == "%") && argv[3] == "0")
 		exit(100);
 
 	operation = get_op_func(argv[2]);
