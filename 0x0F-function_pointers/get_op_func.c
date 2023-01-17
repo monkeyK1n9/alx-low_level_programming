@@ -5,12 +5,10 @@
 /**
  * get_op_func - gets the operation to calculation
  * @s: operator
- * @a: first integer
- * @b: second integer
  * Return: pointer to the operator or NULL if none
  */
 
-int (*get_op_func(char *s))(int a, int b)
+int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
 		{"+", op_add},
