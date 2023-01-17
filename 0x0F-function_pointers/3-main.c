@@ -18,13 +18,22 @@ int main(int argc, char *argv[])
 	char *s;
 
 	if (argc != 4)
+	{
+		printf("Error\n");
 		exit(98);
+	}
 
 	s = argv[2];
 	if (*s != "+" || *s != "-" || *s != "*" || *s != "/" || *s != "%")
+	{
+		printf("Error\n");
 		exit(99);
+	}
 	if ((*s == "/" || *s == "%") && argv[3] == "0")
+	{
+		printf("Error\n");
 		exit(100);
+	}
 
 	operation = get_op_func(argv[2]);
 
