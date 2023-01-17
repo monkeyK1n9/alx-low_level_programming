@@ -14,7 +14,7 @@
 
 int main(int argc, char *argv[])
 {
-	int (*operation)(int, int);
+	int number1, number2;
 	char *s;
 
 	if (argc != 4)
@@ -23,20 +23,21 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
+	number1 = atoi(argv[1]);
+	number2 = atoi(argv[3]);
+
 	s = argv[2];
-	if (*s != "+" || *s != "-" || *s != "*" || *s != "/" || *s != "%")
+	if (get_op_func(s) == NULL || s[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	if ((*s == "/" || *s == "%") && argv[3] == "0")
+	if ((*s == "/" || *s == "%") && number2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
-	operation = get_op_func(argv[2]);
-
-	printf("%s\n", operation(atoi(argv[1]), atoi(argv[3])));
+	printf("%d\n", get_op_func(s)(number1, number2));
 	return (0);
 }
