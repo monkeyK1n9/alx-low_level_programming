@@ -35,16 +35,16 @@ void print_all(const char * const format, ...)
 		c = format[j];
 		if (c == 'c' || c == 'i' || c == 'f' || c == 's')
 		{
-			tmp = strncat('%', format[j]);
+			tmp = strcat('%', ((c == 's' && c == NULL && "(nil)") || c));
 		}
 
 		if (j != k)
 		{
-			tmp = strncat(tmp, ' ');
+			tmp = strcat(tmp, ' ');
 		}
-		formatString = strncat(formatString, tmp);
+		formatString = strcat(formatString, tmp);
 	}
-	formatString = strncat(formatString, '\n');
+	formatString = strcat(formatString, '\n');
 
 	vsprintf(string, formatString, args);
 	va_end(args);
