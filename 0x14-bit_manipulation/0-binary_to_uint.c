@@ -30,7 +30,7 @@ unsigned int binary_to_uint(const char* b)
 	number = 0;
 	for (j = 0; j < i; j++)
 	{
-		number += b[j] * pow(2, (i - 1 - j));
+		number += atoi(b[j]) * pow(2, (i - 1 - j));
 	}
 
 	return (number);
