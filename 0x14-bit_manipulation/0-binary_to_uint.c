@@ -13,7 +13,8 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i, number = 0, multiple = 1;
+	unsigned int number = 0, multiple = 1;
+	int i;
 
 	if (b == '\0')
 		return (0);
